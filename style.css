@@ -1,0 +1,58 @@
+body{
+    background-color: whitesmoke;
+}
+.chess{
+    display: flex   ;
+    max-width: 800px;
+    margin:auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.board {
+    width: 396px;
+    margin: auto;
+    border: 10px solid black;
+}
+
+.info {
+    color: black;
+    width: 400px;
+    margin:  auto 150px;
+    line-height: 30px;
+    border: 3px solid black;
+    padding: 10px;
+    padding-right: 15px;
+}
+
+.move-history {
+    width: 250px;
+    max-height: 100px;
+    overflow-y: scroll;
+    border-style: solid;
+    border-width: 2px;
+    padding: 2%;
+    word-spacing:10px;
+    color: black;
+
+}
+.header{
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text{
+    font-size: x-large;
+    font-weight:600;
+}
+.footer{
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#note{
+    font-size: large;
+    font-weight:600;
+    text-align: center;
+}
+a{
+    color: black;
+}
